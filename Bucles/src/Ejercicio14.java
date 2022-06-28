@@ -7,13 +7,15 @@ import java.util.Scanner;
 public class Ejercicio14 {
 
 	public static void main(String[] args) {
-		Scanner teclado=new Scanner(System.in);
+		Scanner entrada=new Scanner(System.in);
 		
 		System.out.println("Introduce el primer dividendo");
-		int dividendo= teclado.nextInt();
+		int dividendo= entrada.nextInt();
 		System.out.println("Introduce el divisor");
-		int divisor=teclado.nextInt();
+		int divisor=entrada.nextInt();
 		
+		entrada.close();
+
 		int resta=dividendo-divisor;
 		
 		int i=0;
@@ -23,7 +25,6 @@ public class Ejercicio14 {
 			}
 		System.out.printf("El cociente es: %d",i);
 
-		teclado.close();	
 	}
 
 }
