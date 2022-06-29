@@ -22,9 +22,9 @@ public class Ejercicio13 {
 					primo=false;
 		}
 		
-		if ((primo) || (num>0 && num<=2)) {
+		if (primo) {
 			System.out.println("El numero es primo");
-		}else if ((!primo)){
+		}else if (!primo){
 			System.out.println("El numero no es primo");
 		}
 		
