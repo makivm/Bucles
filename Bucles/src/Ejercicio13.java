@@ -11,6 +11,7 @@ public class Ejercicio13 {
 		
 		System.out.println("Introduce un numero natural");
 		int num=teclado.nextInt();
+		
 		boolean primo=true;
 		
 		if ((num>2) && (num%2==0)) {
