@@ -20,7 +20,7 @@ public class EjercicioExtra {
 				menor=num;
 		}
 		System.out.printf("El menor es: %d",menor);
-		
+		entrada.close();
 	}
 
 }
