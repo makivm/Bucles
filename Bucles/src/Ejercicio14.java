@@ -16,14 +16,15 @@ public class Ejercicio14 {
 		
 		entrada.close();
 
-		int resta=dividendo-divisor;
+		int resto=dividendo;
+		int cociente=0;
+	
+		while(resto>=divisor) {
+			resto=resto-divisor;
+			cociente++;
+		}
 		
-		int i=0;
-		if (dividendo>=divisor)
-			for(i=1;resta>=divisor;i++){
-				resta=resta-divisor;
-			}
-		System.out.printf("El cociente es: %d",i);
+		System.out.printf("El cociente de %d entre %d es:\n%d con resto %d" ,dividendo,divisor,cociente,resto);
 
 	}
 
