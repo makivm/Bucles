@@ -16,6 +16,7 @@ public class Ejercicio14 {
 		
 		entrada.close();
 
+		
 		int resto=dividendo;
 		int cociente=0;
 	
