@@ -14,12 +14,9 @@ public class Ejercicio13 {
 		
 		boolean primo=true;
 		
-		if ((num>2) && (num%2==0)) {
-			primo=false;
-		}else {
-			for(int i=2;i<num;i++)
-				if (num%i==0) 
-					primo=false;
+		for(int i=2;i<num &&primo;i++) {
+			if (num%i==0) 
+				primo=false;
 		}
 		
 		if (primo) {
