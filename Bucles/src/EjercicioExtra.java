@@ -18,6 +18,7 @@ public class EjercicioExtra {
 			
 			if (num<menor)
 				menor=num;
+			
 		}
 		System.out.printf("El menor es: %d",menor);
 		entrada.close();
