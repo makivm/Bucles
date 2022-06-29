@@ -23,9 +23,7 @@ public class Ejercicio14 {
 			resto=resto-divisor;
 			cociente++;
 		}
-		
 		System.out.printf("El cociente de %d entre %d es:\n%d con resto %d" ,dividendo,divisor,cociente,resto);
-
 	}
 
 }
